@@ -1,0 +1,15 @@
+//
+// Created by arttu on 08/09/2021.
+//
+
+#ifndef WARHAMMERAPP_THEIRNUMBERISLEGION_H
+#define WARHAMMERAPP_THEIRNUMBERISLEGION_H
+
+
+class TheirNumberIsLegion {
+
+
+};
+
+
+#endif //WARHAMMERAPP_THEIRNUMBERISLEGION_H

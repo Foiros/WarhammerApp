@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Calculator/WarhammerCalculator.h
+vector
+-
+../Units/Unit.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Units/Unit.h
+../DiceRoller/D6.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/DiceRoller/D6.h
+
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/DiceRoller/D6.h
+stdlib.h
+-
+time.h
+-
+vector
+-
+random
+-
+
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Program/WarhammerProgram.cpp
+cstdlib
+-
+WarhammerProgram.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Program/WarhammerProgram.h
+
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Program/WarhammerProgram.h
+iostream
+-
+cstdio
+-
+vector
+-
+string
+-
+../DiceRoller/D6.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/DiceRoller/D6.h
+../Calculator/WarhammerCalculator.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Calculator/WarhammerCalculator.h
+../Units/Unit.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Units/Unit.h
+../Units/NecronWarrior.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Units/NecronWarrior.h
+../Units/KabaliteWarriors.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Units/KabaliteWarriors.h
+
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Units/KabaliteWarriors.h
+Unit.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Units/Unit.h
+
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Units/NecronWarrior.h
+Unit.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Units/Unit.h
+
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Units/Unit.h
+../Weapons/Weapon.h
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Weapons/Weapon.h
+
+E:/Yliopisto toita/GitHub/Unreal/WarhammerApp/Scripts/Weapons/Weapon.h
+string
+-
+
