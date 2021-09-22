@@ -5,9 +5,6 @@
 #ifndef WARHAMMERAPP_UNIT_H
 #define WARHAMMERAPP_UNIT_H
 
-#include "../Weapons/Weapon.h"
-
-
 class Unit {
 
 protected:
@@ -21,30 +18,20 @@ protected:
     leadership{},
     save{};
 
-    Weapon* weapon1;
-    Weapon* weapon2;
-    // Weapon* weapon3;
-    // Weapon* weapon4;
-    // Weapon* weapon5;
-
-
-
-public:
+protected:
     Unit();
-    Unit(int m, int ws, int bs, int s, int t, int w, int a, int l, int as, Weapon* w1, Weapon* w2);
+    Unit(int m, int ws, int bs, int s, int t, int w, int a, int l, int as);
     ~Unit();
 
-    int ReturnMovement() const;
-    int ReturnWeaponSkill() const;
-    int ReturnBallisticSkill() const;
-    int ReturnStrength() const;
-    int ReturnToughness() const;
-    int ReturnWounds() const;
-    int ReturnAttack() const;
-    int ReturnLeadership() const;
-    int ReturnSave() const;
-
-    Weapon* ReturnWeapon(int weaponID);
+    [[nodiscard]] virtual int ReturnMovement() const;
+    virtual int ReturnWeaponSkill() const;
+    virtual int ReturnBallisticSkill() const;
+    virtual int ReturnStrength() const;
+    virtual int ReturnToughness() const;
+    virtual int ReturnWounds() const;
+    virtual int ReturnAttack() const;
+    virtual int ReturnLeadership() const;
+    virtual int ReturnSave() const;
 };
 
 

@@ -6,7 +6,7 @@
 
 Unit::Unit() = default;
 
-Unit::Unit(int m, int ws, int bs, int s, int t, int w, int a, int l, int as, Weapon* w1, Weapon* w2) {
+Unit::Unit(int m, int ws, int bs, int s, int t, int w, int a, int l, int as) {
 
     movement = m;
     weaponSkill = ws;
@@ -17,9 +17,6 @@ Unit::Unit(int m, int ws, int bs, int s, int t, int w, int a, int l, int as, Wea
     attack = a;
     leadership = l;
     save = as;
-
-    weapon1 = w1;
-    weapon2 = w2;
 }
 
 Unit::~Unit() = default;
@@ -41,15 +38,3 @@ int Unit::ReturnAttack() const { return attack; }
 int Unit::ReturnLeadership() const { return leadership; }
 
 int Unit::ReturnSave() const { return save; }
-
-Weapon *Unit::ReturnWeapon(int weaponID) {
-
-    switch (weaponID) {
-
-        case 1:
-            return weapon1;
-
-        case 2:
-            return weapon2;
-    }
-}

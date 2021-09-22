@@ -97,7 +97,6 @@ int WarhammerCalculator::HowManyDies(int failedRolls, Unit *defender, int unitAm
     if(defender->ReturnWounds() == 1)
         deadPeople = failedRolls;
     else{
-
         int defenderWoundsTotal = defender->ReturnWounds() * unitAmount;
 
         for(int i = 0; i < failedRolls; i++){
